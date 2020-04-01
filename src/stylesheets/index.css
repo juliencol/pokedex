@@ -1,0 +1,9 @@
+/* CSS config */
+@import url('config.css');
+
+/* CSS components */
+@import url('components/App.css');
+@import url('components/Pokedex.css');
+@import url('components/Pokecard.css');
+
+
