@@ -1,12 +1,17 @@
 .Pokecard {
-  border: solid black 1px;
-  display: flex;
-  flex-direction: column;
-  width: 16rem;
-  margin: 5px;
-  align-items: center;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+  background-color: white;
+  border-radius: 3px;
+  width: 12rem;
+  margin: 1rem;
+  padding: 10px;
+  text-align: center;
 }
 
-.pokemonImage {
+.Pokecard-image {
   width: 100px;
+}
+
+.Pokecard-data {
+  font-size: 80%;
 }

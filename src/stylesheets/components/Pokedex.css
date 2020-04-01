@@ -4,3 +4,11 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
