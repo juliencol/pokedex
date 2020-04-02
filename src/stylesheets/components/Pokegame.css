@@ -1,0 +1,13 @@
+.Pokegame {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.reload-btn {
+  padding: 16px 24px;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+  font-size: 16px;
+}

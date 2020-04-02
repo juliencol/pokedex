@@ -10,8 +10,14 @@
 
 .Pokecard-image {
   width: 100px;
+  transition: all ease 500ms;
+}
+
+.Pokecard-image:hover {
+  transform: scale(1.25);
+  opacity: 0.6;
 }
 
 .Pokecard-data {
   font-size: 80%;
-}
+} 

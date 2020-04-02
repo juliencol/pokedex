@@ -8,16 +8,17 @@ class Pokedex extends Component {
   }
 
   render() {
-    const { score, isWinner } = this.props;
+    const { score, isWinner, teamNumber } = this.props;
     return (
       <div className="Pokedex">
+        <div>
+          <p>{teamNumber}</p>
+          <p className={isWinner ? 'winner' : 'loser'}> {isWinner ? "Winning hand" : "Losing hand"}</p>
+          <p>score: {score}</p>
+        </div>
         {this.props.pokemons.map( (p) => (
           <Pokecard id={p.id} name={p.name} type={p.type} baseExperience={p.baseExperience} image={p.image} />
         ))}
-        <div>
-          <p className={isWinner ? 'winner' : 'loser'}> {isWinner ? "Winner" : "Loser"}</p>
-          <p>score: {score}</p>
-        </div>
       </div>
     )
   }
