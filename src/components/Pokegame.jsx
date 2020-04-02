@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import Pokedex from './Pokedex';
 
 class Pokegame extends Component {
@@ -22,9 +21,6 @@ class Pokegame extends Component {
     }
     const hand1 = createRandomHand(4)
     const hand2 = createRandomHand(4)
-
-    console.log(pokemons)
-
     return (
       <div>
         <Pokedex pokemons={hand1.pokemons} score={hand1.score} isWinner={hand1.score > hand2.score} />
